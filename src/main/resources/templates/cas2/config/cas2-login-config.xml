@@ -1,9 +1,10 @@
 <component name="sample.cas2.login">
   <require>org.nuxeo.ecm.platform.ui.web.auth.defaultConfig</require>
+  <require>org.nuxeo.ecm.platform.ui.web.auth.WebEngineConfig</require>
   <require>org.nuxeo.ecm.platform.login.Cas2SSO</require>
 
   <!-- Include CAS2 into authentication chain, disabled by default.
-     To edit it, go to templates/cas2/config/cas2-login-config.xml
+     To edit it, copy the templates/cas2, customize it in your own template and include this one
 
   <extension target="org.nuxeo.ecm.platform.ui.web.auth.service.PluggableAuthenticationService"
       point="chain">
