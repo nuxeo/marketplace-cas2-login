@@ -6,7 +6,8 @@
   <classifier>Open Source</classifier>
   <home-page>http://doc.nuxeo.com/x/popH</home-page>
   <platforms>
-    <platform>cap-@DISTRIB_VERSION@</platform>
+    <platform>server-@DISTRIB_VERSION@</platform>
+    <platform>server-@DISTRIB_VERSION@-*</platform>
   </platforms>
   <nuxeo-validation>nuxeo_certified</nuxeo-validation>
   <license>LGPL</license>

@@ -13,12 +13,6 @@
   <name>CAS2 Authentication</name>
 
   <dependencies>
-    <!-- Base distribution(s) for the MP -->
-    <dependency>
-      <groupId>org.nuxeo.ecm.distribution</groupId>
-      <artifactId>nuxeo-distribution-cap</artifactId>
-      <type>pom</type>
-    </dependency>
     <!-- Additional bundles to be deployed by the MP -->
     <dependency>
       <groupId>org.nuxeo.ecm.platform</groupId>
