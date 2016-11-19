@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package type="addon" name="cas2-authentication" version="@VERSION@">
   <title>CAS2 Authentication</title>
-  <description>Enable CAS2 authentication in Nuxeo</description>
+  <description>The CAS2 Authentication enables the Central Authentication Service on your instance, allowing Single Sign On (SSO) to your users. Once they are authenticated with one of the applications linked to your CAS server, they don't need to re-authenticate on any of the other applications, including your Nuxeo instance.</description>
   <vendor>Nuxeo</vendor>
   <classifier>Open Source</classifier>
   <home-page>http://doc.nuxeo.com/x/popH</home-page>
