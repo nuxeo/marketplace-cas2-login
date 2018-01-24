@@ -11,6 +11,7 @@
     <authenticationChain>
       <plugins>
         <plugin>BASIC_AUTH</plugin>
+        <plugin>TOKEN_AUTH</plugin>
         <plugin>CAS2_AUTH</plugin>
         <plugin>ANONYMOUS_AUTH_FOR_CAS2</plugin>
         <plugin>FORM_AUTH</plugin>
